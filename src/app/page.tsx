@@ -1,30 +1,38 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "./page.module.css";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          To follow the adventure, the repository is
+          <code className={styles.code}>
+            <a
+              href="https://github.com/Maeevick/goblins-impact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+          </code>
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/aurel-estoup/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
+              src="/me.png"
+              alt="Photo of me"
               width={100}
-              height={24}
+              height={100}
               priority
             />
           </a>
@@ -32,60 +40,37 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
+        <h1>Goblins Impact</h1>
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="/" className={styles.card}>
           <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
+            Blog <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
+            My crazy thoughts... <em>todo</em>
           </p>
-        </a>
+        </Link>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="/" className={styles.card}>
           <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
+            Story <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Where the globlins live... <em>todo</em>
           </p>
-        </a>
+        </Link>
+
+        <Link href="/" className={styles.card}>
+          <h2 className={inter.className}>
+            Game <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Start the adventure... <em>todo</em>
+          </p>
+        </Link>
       </div>
     </main>
-  )
+  );
 }
