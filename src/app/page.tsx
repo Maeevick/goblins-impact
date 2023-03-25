@@ -10,14 +10,14 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          To follow the adventure, the repository is
+          Pour suivre l&#39;aventure, le repo est{" "}
           <code className={styles.code}>
             <a
               href="https://github.com/Maeevick/goblins-impact"
               target="_blank"
               rel="noopener noreferrer"
             >
-              here
+              ici
             </a>
           </code>
         </p>
@@ -27,7 +27,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+            Par{" "}
             <Image
               src="/me.png"
               alt="Photo of me"
@@ -49,25 +49,25 @@ export default function Home() {
             Blog <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            My crazy thoughts... <em>todo</em>
+            Là où je partage mes pensées gobelinoïdes... <em>todo</em>
           </p>
         </Link>
 
         <Link href="/" className={styles.card}>
           <h2 className={inter.className}>
-            Story <span>-&gt;</span>
+            Histoires <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Where the globlins live... <em>todo</em>
+            Là où les gobelins prennent vie... <em>todo</em>
           </p>
         </Link>
 
         <Link href="/" className={styles.card}>
           <h2 className={inter.className}>
-            Game <span>-&gt;</span>
+            Jeu <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Start the adventure... <em>todo</em>
+            Là où commence ton aventure gobelinesque... <em>todo</em>
           </p>
         </Link>
       </div>
