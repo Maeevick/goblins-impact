@@ -3,23 +3,11 @@ import PageTitle from "./components/PageTitle";
 import GridWith3Cols from "./components/GridWith3Cols";
 import Header from "./components/Header";
 
-const GRID_DATA = [
-  {
-    href: "/blog",
-    title: "Blog",
-    subtitle: "Là où je partage mes pensées gobelinoïdes...",
-  },
-  {
-    href: "/stories",
-    title: "Histoires et Nouvelles",
-    subtitle: "Là où les gobelins prennent vie...",
-  },
-  {
-    href: "/",
-    title: "Jeu",
-    subtitle: "Là où commence ton aventure gobelinesque...",
-  },
-];
+import { blog } from "../data/blog";
+import { chronicle } from "../data/chronicle";
+import { game } from "../data/game";
+
+const GRID_DATA = [blog, chronicle, game];
 
 const Description = () => (
   <a
