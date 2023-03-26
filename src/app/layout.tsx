@@ -13,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body className="max-w-4/5 w-4/5 mx-auto bg-gray-900 font-mono text-gray-50 min-h-screen">
+        {children}
+      </body>
     </html>
   );
 }

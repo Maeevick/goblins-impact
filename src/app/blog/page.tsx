@@ -1,30 +1,27 @@
-import { Inter } from "next/font/google";
-import Link from "next/link";
-import styles from "../page.module.css";
 import HomeLink from "../components/HomeLink";
+import PageTitle from "../components/PageTitle";
+import GridWith3Cols from "../components/GridWith3Cols";
+import Header from "../components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const BLOG_DATA = [
+  {
+    href: "/blog",
+    title: "Pourquoi les gobelins ?",
+    subtitle: "C'est quoi ton délire !",
+  },
+];
 
 export default function Blog() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p className={inter.className}>
-          Blog : Là où je partage mes pensées gobelinoïdes...
-        </p>
-        <HomeLink />
-      </div>
+    <main className="flex flex-col justify-between items-center min-h-screen pt-20 pb-10">
+      <Header
+        description="Là où je partage mes pensées gobelinoïdes..."
+        action={<HomeLink />}
+      />
 
-      <div className={styles.center}></div>
+      <PageTitle title="Blog" />
 
-      <div className={styles.grid}>
-        <Link href="/blog" className={styles.card}>
-          <h2 className={inter.className}>Pourquoi les gobelins ?</h2>
-          <p className={inter.className}>
-            <em>C&#39;est quoi ton délire !</em>
-          </p>
-        </Link>
-      </div>
+      <GridWith3Cols data={BLOG_DATA} />
     </main>
   );
 }

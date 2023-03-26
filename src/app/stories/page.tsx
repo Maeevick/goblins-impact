@@ -1,30 +1,27 @@
-import { Inter } from "next/font/google";
-import Link from "next/link";
-import styles from "../page.module.css";
 import HomeLink from "../components/HomeLink";
+import PageTitle from "../components/PageTitle";
+import GridWith3Cols from "../components/GridWith3Cols";
+import Header from "../components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const STORIES_DATA = [
+  {
+    href: "/stories",
+    title: "Drôle d'aventures",
+    subtitle: "ou, comment se tromper en trois leçons.",
+  },
+];
 
 export default function Stories() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p className={inter.className}>
-          Histoires : Là où les gobelins prennent vie......
-        </p>
-        <HomeLink />
-      </div>
+    <main className="flex flex-col justify-between items-center min-h-screen pt-20 pb-10">
+      <Header
+        description="Là où les gobelins prennent vie..."
+        action={<HomeLink />}
+      />
 
-      <div className={styles.center}></div>
+      <PageTitle title="Histoires et Nouvelles..." />
 
-      <div className={styles.grid}>
-        <Link href="/stories" className={styles.card}>
-          <h2 className={inter.className}>Drôle d&#39;aventures</h2>
-          <p className={inter.className}>
-            <em>ou, comment se tromper en trois leçons.</em>
-          </p>
-        </Link>
-      </div>
+      <GridWith3Cols data={STORIES_DATA} />
     </main>
   );
 }

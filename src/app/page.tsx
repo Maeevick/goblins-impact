@@ -1,77 +1,44 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "./page.module.css";
-import Link from "next/link";
+import GoblinsImage from "./components/GoblinImage";
+import PageTitle from "./components/PageTitle";
+import GridWith3Cols from "./components/GridWith3Cols";
+import Header from "./components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const GRID_DATA = [
+  {
+    href: "/blog",
+    title: "Blog",
+    subtitle: "Là où je partage mes pensées gobelinoïdes...",
+  },
+  {
+    href: "/stories",
+    title: "Histoires et Nouvelles",
+    subtitle: "Là où les gobelins prennent vie...",
+  },
+  {
+    href: "/",
+    title: "Jeu",
+    subtitle: "Là où commence ton aventure gobelinesque...",
+  },
+];
+
+const Description = () => (
+  <a
+    href="https://github.com/Maeevick/goblins-impact"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Pour suivre l&#39;aventure, le repo est ici !
+  </a>
+);
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p className={inter.className}>
-          Pour suivre l&#39;aventure, le repo est{" "}
-          <code className={styles.code}>
-            <a
-              href="https://github.com/Maeevick/goblins-impact"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ici
-            </a>
-          </code>
-        </p>
-        <div>
-          <a
-            className={inter.className}
-            href="https://www.linkedin.com/in/aurel-estoup/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Par{" "}
-            <Image
-              src="/me.png"
-              alt="Photo of me"
-              width={100}
-              height={100}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main className="flex flex-col justify-between items-center min-h-screen pt-20 pb-10">
+      <Header description={<Description />} action={<GoblinsImage />} />
 
-      <div className={styles.center}>
-        <h1 className={inter.className}>Goblins Impact</h1>
-      </div>
+      <PageTitle title="Goblins Impact" />
 
-      <div className={styles.grid}>
-        <Link href="/blog" className={styles.card}>
-          <h2 className={inter.className}>
-            Le Blog <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            <em>Là où je partage mes pensées gobelinoïdes...</em>
-          </p>
-        </Link>
-
-        <Link href="/stories" className={styles.card}>
-          <h2 className={inter.className}>
-            Les Nouvelles <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            <em>Là où les gobelins prennent vie...</em>
-          </p>
-        </Link>
-
-        <Link href="/" className={styles.card}>
-          <h2 className={inter.className}>
-            Le Jeu <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            <em>Là où commence ton aventure gobelinesque...</em>
-          </p>
-        </Link>
-      </div>
+      <GridWith3Cols data={GRID_DATA} />
     </main>
   );
 }
