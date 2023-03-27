@@ -3,25 +3,17 @@ import PageTitle from "../components/PageTitle";
 import GridWith3Cols from "../components/GridWith3Cols";
 import Header from "../components/Header";
 
-const CHRONICLES = [
-  {
-    href: "/chronicle",
-    title: "Drôle d'aventures",
-    subtitle: "ou, comment se tromper en trois leçons.",
-  },
-];
+import { CHRONICLES_DATA, getChronicleChapters } from "@/data/chronicle";
 
 export default function Stories() {
   return (
-    <main className="flex flex-col justify-between items-center min-h-screen pt-20 pb-10">
+    <>
       <Header
         description="Là où je m'essaye à l'écriture..."
         action={<HomeLink />}
       />
-
-      <PageTitle title="Chroniques..." />
-
-      <GridWith3Cols data={CHRONICLES} />
-    </main>
+      <PageTitle title={`${CHRONICLES_DATA.title}...`} />
+      <GridWith3Cols data={getChronicleChapters()} />
+    </>
   );
 }

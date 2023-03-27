@@ -3,25 +3,17 @@ import PageTitle from "../components/PageTitle";
 import GridWith3Cols from "../components/GridWith3Cols";
 import Header from "../components/Header";
 
-const POSTS = [
-  {
-    href: "/blog",
-    title: "Pourquoi les gobelins ?",
-    subtitle: "C'est quoi ton délire !",
-  },
-];
+import { BLOG_DATA, getBlogPosts } from "@/data/blog";
 
 export default function Blog() {
   return (
-    <main className="flex flex-col justify-between items-center min-h-screen pt-20 pb-10">
+    <>
       <Header
         description="Là où je partage mes pensées..."
         action={<HomeLink />}
       />
-
-      <PageTitle title="Blog" />
-
-      <GridWith3Cols data={POSTS} />
-    </main>
+      <PageTitle title={`${BLOG_DATA.title}...`} />
+      <GridWith3Cols data={getBlogPosts()} />
+    </>
   );
 }

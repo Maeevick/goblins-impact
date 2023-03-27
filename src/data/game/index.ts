@@ -1,4 +1,4 @@
-export const game = {
+export const GAME_DATA = {
   href: "/",
   title: "Jeu",
   subtitle:
