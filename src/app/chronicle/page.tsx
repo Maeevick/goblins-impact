@@ -15,7 +15,7 @@ export default function Stories() {
   return (
     <main className="flex flex-col justify-between items-center min-h-screen pt-20 pb-10">
       <Header
-        description="Là où je m'essaye à l'écriture de fantaisie et où je publie les aventures de nos chers gobelins..."
+        description="Là où je m'essaye à l'écriture..."
         action={<HomeLink />}
       />
 
