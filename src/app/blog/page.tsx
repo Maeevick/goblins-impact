@@ -5,6 +5,11 @@ import Header from "../components/Header";
 
 import { BLOG_DATA, getBlogPosts } from "@/data/blog";
 
+export const metadata = {
+  title: `Goblins Impact - ${BLOG_DATA.title}`,
+  description: BLOG_DATA.subtitle,
+};
+
 export default function Blog() {
   return (
     <>

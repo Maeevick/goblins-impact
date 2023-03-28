@@ -5,6 +5,11 @@ import Header from "../components/Header";
 
 import { CHRONICLES_DATA, getChronicleChapters } from "@/data/chronicle";
 
+export const metadata = {
+  title: `Goblins Impact - ${CHRONICLES_DATA.title}`,
+  description: CHRONICLES_DATA.subtitle,
+};
+
 export default function Stories() {
   return (
     <>
