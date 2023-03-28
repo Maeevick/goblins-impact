@@ -14,6 +14,7 @@ const Description = () => (
     href="https://github.com/Maeevick/goblins-impact"
     target="_blank"
     rel="noopener noreferrer"
+    className="hover:italic hover:underline"
   >
     Pour suivre l&#39;aventure, le repo est ici !
   </a>

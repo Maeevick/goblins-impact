@@ -14,7 +14,9 @@ export default function PartialSlugFrom(data: Content) {
   return (
     <>
       <Header description={<Description {...data} />} action={<HomeLink />} />
-      <Markdown>{data.content}</Markdown>
+      <article className="prose prose-invert">
+        <Markdown>{data.content}</Markdown>
+      </article>
     </>
   );
 }
