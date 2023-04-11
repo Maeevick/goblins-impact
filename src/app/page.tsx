@@ -1,11 +1,11 @@
-import PageTitle from "./components/PageTitle";
-import GridWith3Cols from "./components/GridWith3Cols";
-import Header from "./components/Header";
-
 import { BLOG_DATA } from "@/data/blog";
 import { CHRONICLES_DATA } from "@/data/chronicle";
-import { GAME_DATA } from "../data/game";
+import { GAME_DATA } from "@/data/game";
+
+import Header from "./components/Header";
 import HomeLink from "./components/HomeLink";
+import PageTitle from "./components/PageTitle";
+import CardLayout from "./components/Cards/CardLayout";
 
 const GRID_DATA = [BLOG_DATA, CHRONICLES_DATA, GAME_DATA];
 
@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <Header description={<Description />} action={<HomeLink />} />
       <PageTitle title="Goblins Impact" />
-      <GridWith3Cols data={GRID_DATA} />
+      <CardLayout data={GRID_DATA} />
     </>
   );
 }

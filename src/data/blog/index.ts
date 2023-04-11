@@ -6,6 +6,7 @@ export const BLOG_POSTS_PATHS = "src/data/blog/posts/";
 export const BLOG_DATA = {
   href: "/blog",
   title: "Blog",
+  header: "Là où je partage mes pensées...",
   subtitle:
     "Là où je partage mes pensées et mes apprentissages, ainsi que les avancées du projet...",
 };
