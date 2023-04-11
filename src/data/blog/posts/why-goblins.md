@@ -5,10 +5,42 @@ subtitle: C'est quoi ton délire !
 date: "2023-03-27"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+**Hey Goblin!**
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+# Alors pourquoi les gobelins - et surtout pourquoi pas - je t'explique (plus ou moins).
 
-## Lorem Ipsum
+J'ai pas mal pratiqué le jeu de rôle, en physique et en ligne, et d'aussi loin que je me souvienne j'ai toujours apprécié les personnages qui sortaient de l'ordinaire. À mi-chemin entre anti-héros et raté-complet, j'ai une affection particulière pour les maladroit•e•s, les candides voir, les idiot•e•s, qui se lancent malgré eux/elles dans des aventures plus ou moins épiques.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+Les gobelins sont parmi les premiers monstres que l'on part exterminer (parfois les kobolds ou d'autres formes de petites créatures moches et méchantes).
+
+---
+
+_La question a germé : pourquoi ?_
+
+---
+
+Quand je jouais à Bloodbowl, je suis tombé encore un peu plus dedans, avec cette équipe de bras-cassés. Une des pires équipes à jouer, de par ses faiblesses, mais également une des plus amusantes : un coup de tronçonneuse ? se faire tacler par le boulet ? se faire dribbler part un minus ? Finir le match est déjà un succès en soi, le tout en prenant plus de risques que l'adversaire à chaque action.
+
+---
+
+_L'objectif était né : déjouer les pronostics !_
+
+---
+
+Il y a quelques années, je cherchais un nom de site/blog et m'est venu l'idée de `GoblinsAtCode: we are tiny, uggly, sneaky but we code and we code well!`. Je trouvais ce côté `Moi, Moche et Méchant` assez amusant et cocasse. En parallèle, je suis un fan inconditionnel de Terry Pratchett et de son univers décalé du `Disque-Monde`: Rincevent aurait été un gobelin parfait. Une ode à la bêtise intelligente, à la simple complexité, au paradoxe évident, dans laquelle je me retrouve totalement. J'ai besoin d'écrire et de créer des trucs, parfois brillants, parfois stupides, peu importe.
+
+---
+
+_J'ai donc décidé d'essayer : créer un univers décalé pour m'exprimer sans prétention :)_
+
+---
+
+**Aller à bientôt, et même si tu crois :**
+
+- que tu es moche
+- que tu es nul•le
+- que tu es mauvais•e
+
+**N'oublie pas : les Gobelins ont aussi droit à leur part d'aventure.**
+
+`Maeevick, un gobelin perdu dans le monde des humains`

@@ -14,7 +14,7 @@ export default function PartialSlugFrom(data: Content) {
   return (
     <>
       <Header description={<Description {...data} />} action={<HomeLink />} />
-      <article className="prose prose-invert">
+      <article className="py-20 prose prose-invert">
         <Markdown>{data.content}</Markdown>
       </article>
     </>
