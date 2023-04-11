@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import HomeLink from "../components/HomeLink";
 import PageTitle from "../components/PageTitle";
+import Disclaimer from "../components/Disclaimer";
 
 import { GAME_DATA } from "@/data/game";
 
@@ -14,7 +15,10 @@ export default function Stories() {
     <>
       <Header description={GAME_DATA.header} action={<HomeLink />} />
       <PageTitle title={GAME_DATA.title} />
-      <article>Coming Soon!</article>
+      <Disclaimer>
+        <h3 className="text-xl my-2 underline">{GAME_DATA.disclaimer.title}</h3>
+        <p>{GAME_DATA.disclaimer.message}</p>
+      </Disclaimer>
     </>
   );
 }
