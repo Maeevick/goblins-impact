@@ -7,7 +7,7 @@ date: "2023-03-27"
 
 **Hey Goblin!**
 
-# Alors pourquoi les gobelins - et surtout pourquoi pas - je t'explique (plus ou moins).
+## Alors pourquoi les gobelins - et surtout pourquoi pas - je t'explique (plus ou moins).
 
 J'ai pas mal pratiqué le jeu de rôle, en physique et en ligne, et d'aussi loin que je me souvienne j'ai toujours apprécié les personnages qui sortaient de l'ordinaire. À mi-chemin entre anti-héros et raté-complet, j'ai une affection particulière pour les maladroit•e•s, les candides voir, les idiot•e•s, qui se lancent malgré eux/elles dans des aventures plus ou moins épiques.
 
