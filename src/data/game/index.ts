@@ -4,7 +4,7 @@ export const GAME_DATA = {
   cardTitle: "Goblins Impact",
   header: "Là où commence ton aventure...",
   subtitle:
-    "Là où commence ton aventure en tant que peau-verte, pour passer le temps ou pour conquérir le monde...",
+    "Là où commence ton aventure en tant que peau verte, pour passer le temps ou pour conquérir le monde...",
   disclaimer: {
     title: "Coming Soon!",
     message:

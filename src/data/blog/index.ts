@@ -12,7 +12,7 @@ export const BLOG_DATA = {
   disclaimer: {
     title: "Disclaimer",
     message:
-      "Pour les puristes de la langue française, je suis désolé d'avance mais ce blog est écrit en fran-glais (🇫🇷-🇬🇧).",
+      "Pour les puristes de la langue française, je suis désolé d'avance mais ce blog est écrit en franglais (🇫🇷-🇬🇧).",
   },
 };
 

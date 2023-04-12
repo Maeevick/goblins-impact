@@ -9,7 +9,7 @@ date: "2023-03-27"
 
 ## Alors pourquoi les gobelins - et surtout pourquoi pas - je t'explique (plus ou moins).
 
-J'ai pas mal pratiqué le jeu de rôle, en physique et en ligne, et d'aussi loin que je me souvienne j'ai toujours apprécié les personnages qui sortaient de l'ordinaire. À mi-chemin entre anti-héros et raté-complet, j'ai une affection particulière pour les maladroit•e•s, les candides voir, les idiot•e•s, qui se lancent malgré eux/elles dans des aventures plus ou moins épiques.
+J'ai pas mal pratiqué le jeu de rôle, en physique et en ligne, et d'aussi loin que je me souvienne j'ai toujours apprécié les personnages qui sortaient de l'ordinaire. À mi-chemin entre antihéros et ratés complets, j'ai une affection particulière pour les maladroits, les candides voir, les idiots, qui se lancent malgré eux/elles dans des aventures plus ou moins épiques.
 
 Les gobelins sont parmi les premiers monstres que l'on part exterminer (parfois les kobolds ou d'autres formes de petites créatures moches et méchantes).
 
@@ -19,7 +19,7 @@ _La question a germé : pourquoi ?_
 
 ---
 
-Quand je jouais à Bloodbowl, je suis tombé encore un peu plus dedans, avec cette équipe de bras-cassés. Une des pires équipes à jouer, de par ses faiblesses, mais également une des plus amusantes : un coup de tronçonneuse ? se faire tacler par le boulet ? se faire dribbler part un minus ? Finir le match est déjà un succès en soi, le tout en prenant plus de risques que l'adversaire à chaque action.
+Quand je jouais à Bloodbowl, je suis tombé encore un peu plus dedans, avec cette équipe de bras cassés. Une des pires équipes à jouer, de par ses faiblesses, mais également une des plus amusantes : un coup de tronçonneuse ? se faire tacler par le boulet ? se faire dribbler part un minus ? Finir le match est déjà un succès en soi, le tout en prenant plus de risques que l'adversaire à chaque action.
 
 ---
 
