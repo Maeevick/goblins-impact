@@ -38,3 +38,28 @@ Les orbites vides des créatures convergèrent vers la source du vacarme. Malgr�
 Un froid noir et intense envahit son esprit, sa vue se brouilla, le son des os sur les dalles de pierre se rapprocha. Alors, ne pouvant plus fuir autrement qu'en rampant tel un ver des sables paraplégique, Jîl se roula en boule sous son tas de breloques.
 
 Elle attendit la fin de son cauchemar, celle-ci ne vint pas...
+
+## Minus qui roule, n’amasse pas mousse…
+
+Gaalvin poussait son chariot à main - autant dire une brouette remplit de bric-à-brac - sur le chemin menant au prochain village de sa liste de destinations. Sous son chapeau de paille à larges bords, il suait à grosses gouttes.
+
+Les affaires n'allaient pas bien. Dans les trois derniers villages visités, il n'avait pas réussi à trouver d'acheteurs suffisamment malavisés pour s'intéresser à son discours alambiqué de vendeur plus ou moins professionnel.
+
+Ça allait d'autant plus mal qu'il avait investi comme un panier percé dans tout un tas de bibelots. Gaalvin avait le plus grand mal à réfréner ce qu'il pensait être des opportunités en or.
+
+En arrivant dans le village des orques du clan Thor-Du, il était éreinté mais confiant en sa capacité d’entourlouper quelques lourdauds.
+
+Cependant, les choses ne se passèrent pas du tout comme il l'avait imaginé - quand l'opposé de ce qu'on souhaite est un euphémisme, on peut considérer que les choses vont de mal en pis.
+
+Malgré tout, il suivit son instinct optimiste en s'approchant de l'entrée du village avec le coucher du soleil. Une arrivée romantique et héroïque pensa-t-il.
+
+Il découvrit peu à peu, dans la luminosité faiblissante, des volutes de fumée qui s'échappaient des huttes, du mobilier fracassé dans les allées et au loin de nombreux objets indéterminés pendus à des poteaux.
+
+Un attroupement festoyait ou se réchauffait autour d'un grand feu. Les orques étaient vraiment des êtres simples, se dit-il. “Oyé oyé mes amis ! Je vous apporte les meilleures affaires à faire directement dans vot’ patelin. Heureux que vous devez être mes am…”. Il s'étrangla en voyant les visages patibulaires, mais surtout humain, se retourner pour lui faire face. Des inquisiteurs de l'ordre des Douze, la pire mauvaise surprise qui pouvait lui arriver.
+
+Gaalvin tenta de faire marche arrière sans lâcher son chariot - lâcher son gagne-pain n’est pas acceptable pour un marchand - mais ses pieds ne touchaient déjà plus le sol. Des rictus belliqueux s’affichèrent sur les visages des fanatiques face à lui, des rires cruels s’élèvent derrière lui, et une voix épouvantable creva le tympan de son oreille gauche : « Qu’c’qu’on a là ! Une m’nuscule peau-verte. C’qu’on pourrait à peine en faire un chap’ieau ! ».
+
+Quelques instants plus tard, Gaalvin suffoquait, une corde au cou sur un poteau à trois mètres de haut entre deux cadavres d'orques, les pieds gigotant et roussis par le brasier qui finissait d'effacer l'existence du village.
+
+La dernière pensée du gobelin fut pour son fidèle chariot qui disparaissait dans les flammes, puis il hurla…
+
