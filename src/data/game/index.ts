@@ -1,6 +1,6 @@
 export const GAME_DATA = {
   href: "/game",
-  title: "Goblins Impact - Le Jeu",
+  title: "Goblins Impact",
   cardTitle: "Goblins Impact",
   header: "Là où commence ton aventure...",
   subtitle:
