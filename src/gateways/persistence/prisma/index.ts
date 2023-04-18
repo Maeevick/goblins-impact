@@ -12,23 +12,23 @@ type Credentials = {
 };
 
 export async function signUp({ nickname, email, password }: Credentials) {
-  return (
-    (await prisma.player.create({
-      data: {
-        nickname,
-        email,
-        password,
-      },
-    })) ?? null
-  );
+  return await prisma.player.create({
+    data: {
+      nickname,
+      email,
+      password,
+    },
+  });
 }
 
-export async function authorize({ nickname, email, password }: Credentials) {
-  const player = await prisma.player.findFirstOrThrow({
-    where: { nickname, email },
+export async function authorize({ nickname, password }: Credentials) {
+  const player = await prisma.player.findFirst({
+    where: { nickname },
   });
 
-  if (player.password !== password) return null;
+  if (player?.password !== password) {
+    return null;
+  }
 
   return player;
 }
