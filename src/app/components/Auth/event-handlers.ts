@@ -70,7 +70,7 @@ export function handleSignUp(router: Router) {
 }
 
 export function handleSignIn(router: Router) {
-  return function (event: FormEvent<HTMLFormElement>): Promise<void> {
+  return function (event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const { nickname, password } = event.target as typeof event.target &
