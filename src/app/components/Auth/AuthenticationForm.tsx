@@ -44,7 +44,7 @@ export default function AuthenticateForm() {
       </button>
       <form
         className="m-2 p-2 flex flex-col justify-center items-center pb-10"
-        onSubmit={isAlradyRegistered ? onSignIn() : onSignUp}
+        onSubmit={isAlradyRegistered ? onSignIn() : onSignUp()}
       >
         {isAlradyRegistered || <EmailInput />}
         <NicknameInput />
