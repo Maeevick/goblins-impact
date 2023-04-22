@@ -15,7 +15,7 @@ export default function Game() {
     <SessionProvider>
       <Header description={GAME_DATA.header} action={<HomeLink />} />
       <PageTitle title={GAME_DATA.title} />
-      <GameMenu />
+      {/* <GameMenu /> */}
       <Disclaimer>
         <h3 className="text-xl my-2 underline">{GAME_DATA.disclaimer.title}</h3>
         <p>{GAME_DATA.disclaimer.message}</p>
