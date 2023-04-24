@@ -1,6 +1,16 @@
-import { authorize, exec } from "@/gateways/persistence/prisma";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+
+import { exec } from "@/gateways/persistence/prisma";
+import { cryptoGatewayFactory } from "@/gateways/crypto";
+import { playerRespositoryFactory } from "@/gateways/persistence/prisma/playerRepository";
+
+import { authorize } from "@/core/behaviors/authorize";
+
+const authorizeHandler = authorize({
+  playerRepository: playerRespositoryFactory(),
+  crypto: cryptoGatewayFactory(),
+});
 
 const handler = NextAuth({
   session: {
@@ -15,7 +25,7 @@ const handler = NextAuth({
         password: { label: "password", type: "password" },
       },
       async authorize(credentials) {
-        return (await exec(authorize, credentials)) ?? null;
+        return (await exec(authorizeHandler, credentials)) ?? null;
       },
     }),
   ],
