@@ -9,7 +9,6 @@ export default function Authenticate() {
   return (
     <>
       <Header description={GAME_DATA.header} action={<HomeLink />} />
-      <PageTitle title={GAME_DATA.title} />
       <AuthenticateForm />
     </>
   );
