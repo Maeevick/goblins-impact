@@ -14,12 +14,12 @@ export default function GameMenu() {
   }
   if (session.status === "authenticated") {
     return (
-      <div className="p-2 m-2">
+      <div className="p-2 m-2 flex">
         <button
           className="p-2 m-2 border border-orange-500 rounded-lg outline-none focus:outline-none hover:italic hover:underline focus:italic focus:underline"
           onClick={handleSignOut}
         >
-          Sign Out
+          Déconnexion
         </button>
       </div>
     );
@@ -28,7 +28,7 @@ export default function GameMenu() {
     <div className="flex justify-between">
       <Link className="p-2 m-2" href="/game/authenticate">
         <button className="p-2 m-2 border border-orange-500 rounded-lg outline-none focus:outline-none hover:italic hover:underline focus:italic focus:underline">
-          Start your journey
+          Commencer mon aventure
         </button>
       </Link>
     </div>

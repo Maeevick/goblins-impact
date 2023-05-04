@@ -28,13 +28,13 @@ export default function AuthenticateForm() {
   }
 
   const buttonMessage = isAlradyRegistered
-    ? "Not registered yet ?"
-    : "Already an account ?";
+    ? "Tu n'as pas encore de compte ?"
+    : "Tu as déjà un compte ?";
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="m-20 flex flex-col justify-center items-center">
       <p className="text-center text-xl">
-        {isAlradyRegistered ? "Connect to your account" : "Create your account"}
+        {isAlradyRegistered ? "Connexion" : "Inscription"}
       </p>
       <button
         className="p-2 m-2 text-xs outline-none focus:outline-none underline hover:italic"

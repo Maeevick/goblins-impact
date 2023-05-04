@@ -5,7 +5,7 @@ export default function EmailInput() {
       <input
         className="m-2 p-2 border focus:border-orange-500 rounded-lg  outline-none focus:outline-none text-gray-600"
         type="email"
-        placeholder="your mail"
+        placeholder="Ton Email"
         id="email"
         required
       />
